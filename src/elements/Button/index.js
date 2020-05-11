@@ -29,7 +29,7 @@ export default function Button(props) {
 		)
 	}
 
-	if (props.type == "link") {
+	if (props.type === "link") {
 		if (props.isExternal) {
 			return (
 				<a href={props.href} className={className.join(" ")} style={props.style} target={props.target === "blank" ? "blank" : undefined} rel={
@@ -64,6 +64,4 @@ Button.propTypes = {
 	isBlock: propTypes.bool,
 	isExternal: propTypes.bool,
 	hasShadow: propTypes.bool,
-
-
 }
