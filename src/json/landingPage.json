@@ -1,0 +1,28 @@
+{
+    "hero": {
+        "travelers": 80409,
+        "treasures": 882,
+        "cities": 1492
+    },
+    "mostPicked": [{
+            "_id": "asd19uasdadss1",
+            "name": "Faisal Achmad Dwi C",
+            "type": "Apartement",
+            "imageUrl": "images/img-hero.jpg",
+            "country": "Indonesia",
+            "city": "Seoul Flore",
+            "price": "80",
+            "unit": "night"
+        },
+        {
+            "_id": "asd19uasdadss1",
+            "name": "Faisal Achmad Dwi C",
+            "type": "Apartement",
+            "imageUrl": "images/img-hero.jpg",
+            "country": "Indonesia",
+            "city": "Seoul Flore",
+            "price": "80",
+            "unit": "night"
+        }
+    ]
+}

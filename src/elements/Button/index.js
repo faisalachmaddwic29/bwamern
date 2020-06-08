@@ -21,7 +21,7 @@ export default function Button(props) {
 			<span className={className.join(" ")} style={props.style}>
 				{
 					props.isLoading ? <React.Fragment>
-						<span className="spinner-border.spinner-border-sm.mx-5"></span>
+						<span className="spinner-border spinner-border-sm mx-5"></span>
 						<span className="sr-only">Loading...</span>
 					</React.Fragment> : props.children
 				}
@@ -57,6 +57,8 @@ Button.propTypes = {
 	target: propTypes.string,
 	href: propTypes.string,
 	className: propTypes.string,
+	isPrimary: propTypes.bool,
+	isExternal: propTypes.bool,
 	isDisabled: propTypes.bool,
 	isLoading: propTypes.bool,
 	isSmall: propTypes.bool,
