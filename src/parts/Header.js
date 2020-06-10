@@ -3,11 +3,10 @@ import Button from 'elements/Button'
 import BrandIcon from 'parts/IconText'
 
 export default function Header(props) {
-    console.log(props);
+    // console.log(props);
     const getNavLinkClass = path => {
-        console.log(typeof (path));
-        // console.log(props.location.pathname);
-        // console.log(props.location.pathname === path);
+        // console.log(typeof (path));
+
         return props.location.pathname === path ? "active" : ""
     }
 

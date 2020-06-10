@@ -8,21 +8,163 @@
             "_id": "asd19uasdadss1",
             "name": "Faisal Achmad Dwi C",
             "type": "Apartement",
-            "imageUrl": "images/img-hero.jpg",
+            "imageUrl": "/images/img-mostpick1.jpg",
             "country": "Indonesia",
             "city": "Seoul Flore",
             "price": "80",
             "unit": "night"
         },
         {
-            "_id": "asd19uasdadss1",
+            "_id": "asd19uasdadss2",
             "name": "Faisal Achmad Dwi C",
             "type": "Apartement",
-            "imageUrl": "images/img-hero.jpg",
+            "imageUrl": "/images/img-mostpick2.jpg",
             "country": "Indonesia",
             "city": "Seoul Flore",
             "price": "80",
             "unit": "night"
+        },
+        {
+            "_id": "asd19uasdadss3",
+            "name": "Faisal Achmad Dwi C",
+            "type": "Apartement",
+            "imageUrl": "/images/img-mostpick3.jpg",
+            "country": "Indonesia",
+            "city": "Seoul Flore",
+            "price": "80",
+            "unit": "night"
+        },
+        {
+            "_id": "asd19uasdadss4",
+            "name": "Faisal Achmad Dwi C",
+            "type": "Apartement",
+            "imageUrl": "/images/img-mostpick4.jpg",
+            "country": "Indonesia",
+            "city": "Seoul Flore",
+            "price": "80",
+            "unit": "night"
+        },
+        {
+            "_id": "asd19uasdadss5",
+            "name": "Faisal Achmad Dwi C",
+            "type": "Apartement",
+            "imageUrl": "/images/img-mostpick5.jpg",
+            "country": "Indonesia",
+            "city": "Seoul Flore",
+            "price": "80",
+            "unit": "night"
+        }
+    ],
+    "categories": [{
+            "id": "asd1231312312",
+            "name": "House with beauty backyard",
+            "items": [{
+                    "_id": "asd19uasdadsd2",
+                    "name": "Faisal Achmad Dwi C",
+                    "imageUrl": "/images/img-backyard1.jpg",
+                    "country": "Indonesia",
+                    "city": "Seoul Flore",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asd19uasdadsd1",
+                    "name": "Faisal Achmad Dwi C",
+                    "imageUrl": "/images/img-backyard2.jpg",
+                    "country": "Indonesia",
+                    "city": "Seoul Flore",
+                    "isPopular": true
+                },
+                {
+                    "_id": "asd19uasdadsd3",
+                    "name": "Faisal Achmad Dwi C",
+                    "imageUrl": "/images/img-backyard3.jpg",
+                    "country": "Indonesia",
+                    "city": "Seoul Flore",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asd19uasdadsd4",
+                    "name": "Faisal Achmad Dwi C",
+                    "imageUrl": "/images/img-backyard4.jpg",
+                    "country": "Indonesia",
+                    "city": "Seoul Flore",
+                    "isPopular": false
+                }
+            ]
+        },
+        {
+            "id": "asd1231312312",
+            "name": "Hotels with large living room",
+            "items": [{
+                    "_id": "asd19uasdadsd2",
+                    "name": "Faisal Achmad Dwi C",
+                    "imageUrl": "/images/img-livingroom1.jpg",
+                    "country": "Indonesia",
+                    "city": "Seoul Flore",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asd19uasdadsd1",
+                    "name": "Faisal Achmad Dwi C",
+                    "imageUrl": "/images/img-livingroom2.jpg",
+                    "country": "Indonesia",
+                    "city": "Seoul Flore",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asd19uasdadsd3",
+                    "name": "Faisal Achmad Dwi C",
+                    "imageUrl": "/images/img-livingroom3.jpg",
+                    "country": "Indonesia",
+                    "city": "Seoul Flore",
+                    "isPopular": true
+                },
+                {
+                    "_id": "asd19uasdadsd4",
+                    "name": "Faisal Achmad Dwi C",
+                    "imageUrl": "/images/img-livingroom4.jpg",
+                    "country": "Indonesia",
+                    "city": "Seoul Flore",
+                    "isPopular": false
+                }
+            ]
+        },
+        {
+            "id": "asd1231312312",
+            "name": "Apartemens with kitchen set",
+            "items": [{
+                    "_id": "asd19uasdadsd2",
+                    "name": "Faisal Achmad Dwi C",
+                    "imageUrl": "/images/img-kitchen1.jpg",
+                    "country": "Indonesia",
+                    "city": "Seoul Flore",
+                    "isPopular": true
+                },
+                {
+                    "_id": "asd19uasdadsd1",
+                    "name": "Faisal Achmad Dwi C",
+                    "imageUrl": "/images/img-kitchen2.jpg",
+                    "country": "Indonesia",
+                    "city": "Seoul Flore",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asd19uasdadsd3",
+                    "name": "Faisal Achmad Dwi C",
+                    "imageUrl": "/images/img-kitchen3.jpg",
+                    "country": "Indonesia",
+                    "city": "Seoul Flore",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asd19uasdadsd4",
+                    "name": "Faisal Achmad Dwi C",
+                    "imageUrl": "/images/img-kitchen4.jpg",
+                    "country": "Indonesia",
+                    "city": "Seoul Flore",
+                    "isPopular": false
+                }
+            ]
         }
     ]
 }
