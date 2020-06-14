@@ -5,6 +5,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import "colorVariables";
 @import "functions";
 @import "variables";
 @import "mixins";
@@ -92,6 +94,11 @@ header {
 
 section {
     margin-bottom: 70px;
+
+    a {
+        text-decoration: none;
+    }
+
     // border-bottom: 1px solid black;
 }
 
@@ -156,13 +163,13 @@ section {
             font-size: 0.875rem;
         }
 
-        .stretched-link {
-            background: transparent;
-            outline: none;
-            border: none;
-            text-align: left;
-            padding-left: 0;
-        }
+        // .stretched-link {
+        //     background: transparent;
+        //     outline: none;
+        //     border: none;
+        //     text-align: left;
+        //     padding-left: 0;
+        // }
     }
 
     &.card-featured {
@@ -239,5 +246,46 @@ section {
                 transform: scale(1);
             }
         }
+    }
+}
+
+.testimonial-hero,
+.testimonial-hero img {
+    width: 365px;
+    height: 500px;
+}
+
+footer {
+    border-top: 1px solid $gray-200;
+    padding-top: 50px;
+
+    .brand-tagline {
+        color: $gray-500;
+        font-weight: 300;
+        margin-top: 8px;
+    }
+
+    .list-group-item {
+        padding: 0.3125rem 0;
+        border: none;
+
+        a,
+        span {
+            color: $gray-500;
+            font-weight: 300;
+        }
+
+        a {
+            @include hover-focus {
+                color: $gray-800;
+            }
+        }
+    }
+
+    .copyrights {
+        margin: 50px 0;
+        font-weight: 300;
+        //font-size: 0.875rem; //16px
+        color: $gray-500;
     }
 }
