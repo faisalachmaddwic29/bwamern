@@ -122,9 +122,14 @@ section {
 
 
 .card {
+    &.bordered {
+        border: 1px solid $gray-200;
+    }
+
     border-radius: 15px;
     border: none;
     height: 100%;
+
 
     .tag {
         z-index: 3;
@@ -205,7 +210,6 @@ section {
             transition: .25s transform ease-in-out;
             border-radius: 15px;
             overflow: hidden;
-
         }
 
         .meta-wrapper {
@@ -287,5 +291,12 @@ footer {
         font-weight: 300;
         //font-size: 0.875rem; //16px
         color: $gray-500;
+    }
+}
+
+main {
+    p {
+        color: $gray-500;
+        font-weight: 300;
     }
 }

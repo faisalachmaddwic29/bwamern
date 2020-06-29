@@ -5,18 +5,20 @@
 //
 
 .btn {
-  display: inline-flex;
+  display: inline-flex !important;
   align-items: center;
+  justify-content: center !important;
   font-family: $btn-font-family;
   font-weight: $btn-font-weight;
-  color: $body-color;
+  // color: $body-color;
+  color: #B2B2B2;
   text-align: center;
   white-space: $btn-white-space;
   vertical-align: middle;
   cursor: if($enable-pointer-cursor-for-buttons, pointer, null);
   user-select: none;
   min-height: 50px;
-  background-color: transparent;
+  background-color: #EEEDED;
   border: $btn-border-width solid transparent;
   @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-line-height, 4px);
   @include transition($btn-transition);

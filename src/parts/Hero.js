@@ -1,9 +1,9 @@
 import React from 'react'
 import ImageHero from 'assets/images/img-hero.jpg'
 import ImageHeroFrame from 'assets/images/img-hero-frame.jpg'
-import IconCities from 'assets/images/icons/ic_cities.svg'
-import IconTraveler from 'assets/images/icons/ic_traveler.svg'
-import IconTreasure from 'assets/images/icons/ic_treasure.svg'
+// import IconCities from 'assets/images/icons/ic_cities.svg'
+// import IconTraveler from 'assets/images/icons/ic_traveler.svg'
+// import IconTreasure from 'assets/images/icons/ic_treasure.svg'
 import numberFormat from 'utils/formatNumber'
 import Fade from 'react-reveal/Fade';
 
@@ -13,6 +13,7 @@ import Button from 'elements/Button'
 export default function Hero(props) {
 
     function showMostPicked() {
+        console.log(props.refMostPicked.current)
         window.scrollTo(
             {
                 top: props.refMostPicked.current.offsetTop -30,
@@ -42,7 +43,8 @@ export default function Hero(props) {
                             <div className="col-auto" style={{ marginRight: 30 }}>
                                 <img 
                                     width="36" 
-                                    height="36" src={IconTraveler} 
+                                    height="36" 
+                                    src='/images/icons/ic_traveler.svg' 
                                     alt={`${props.data.travelers} Travelers`} 
                                 />
                                 <h6 className="mt-3">
@@ -55,7 +57,7 @@ export default function Hero(props) {
                                 <img 
                                     width="36" 
                                     height="36" 
-                                    src={IconTreasure} 
+                                    src='/images/icons/ic_treasure.svg' 
                                     alt={`${props.data.treasures} Treasures`} 
                                 />
                                 <h6 className="mt-3">
@@ -65,7 +67,7 @@ export default function Hero(props) {
                                 </h6>
                             </div>
                             <div className="col-auto">
-                                <img width="36" height="36" src={IconCities} alt={`${props.data.cities} Cities`} />
+                                <img width="36" height="36" src='/images/icons/ic_cities.svg' alt={`${props.data.cities} Cities`} />
                                 <h6 className="mt-3">
                                     {numberFormat(props.data.cities)} <span className="text-gray-500 font-weight-light">
                                         Cities
